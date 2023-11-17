@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="level m-5 navbar">
+            <div id="header" class="level-left">
+                <div class="level-item">
+                    <p class="subtitle is-5 mr-3 is-size-3 has-text-primary">
+                        Weather Dashboard
+                    </p>
+                </div>
+    </nav>
+    </header>
+    <main>
+        <section class="columns m-1">
+            <div class="column is-3">
+                <div>
+                    <div class="level-item m-3">
+                    
+                        <div class="field has-addons">
+                            <p class="control">
+                                <input id="searchBar" class="input" type="text" placeholder="SearchCity">
+                            </p>
+                            <p class="control">
+                                <button id="search" class="button is-primary">
+                                    Search
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="popularSearches" class="box">
+                    <h1 class="has-text-centered mb-5 is-size-5 has-text-primary-dark search">Popular Searches</h1>
+                    <button class="fav button is-fullwidth mb-2">Miami</button>
+                    <button class="fav button is-fullwidth mb-2">tampa</button>
+                    <button class="fav button is-fullwidth mb-2">New York City</button>
+                    <button class="fav button is-fullwidth mb-2">Brazil</button>
+                    <button class="fav button is-fullwidth">Paris</button>
+                </div>
+            </div>
+            
